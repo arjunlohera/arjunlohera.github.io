@@ -22,7 +22,7 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="#"><img src="Pics/logo.png" alt="My logo" style="width:30px; height:30px"></a>
+      <a class="navbar-brand" href="#"><img src="pics/logo.png" alt="My logo" style="width:30px; height:30px"></a>
       <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i>  Home</a></li>
@@ -86,47 +86,103 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nibh lorem, eleifend a justo vitae, tempor molestie justo. Sed accumsan, magna eu pellentesque volutpat, felis nisi scelerisque felis, a lacinia lorem nulla vel elit. Mauris eget ex vitae purus convallis posuere gravida quis purus.</p>
     </div>
   </div>
-</div>
-<footer>
-  <div class="container" id="contact">
-    <div class="row">
-      <div class="col-12 col-md-6">
-        <h3>Our Mission</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nibh lorem, eleifend a justo vitae, tempor molestie justo. Sed accumsan, magna eu pellentesque volutpat, felis nisi scelerisque felis, a lacinia lorem nulla vel elit. Mauris eget ex vitae purus convallis posuere gravida quis purus.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nibh lorem, eleifend a justo vitae, tempor molestie justo. Sed accumsan, magna eu pellentesque volutpat, felis nisi scelerisque felis, a lacinia lorem nulla vel elit. Mauris eget ex vitae purus convallis posuere gravida quis purus.</p>
-      </div>
-      <div class="col-12 col-md">
-        <h3>Address</h3>
-        <address>
-          Saroop Nagar, Salem Tabri, <br />
-          Ludhiana, Punjab, India.<br />
-          <i class="fa fa-phone"> +91-8427047669</i></a><br />
-          <i class="fa fa-phone"> +91-7009116745</i><br />
-          <i class="fa fa-envelope"> arjun@gravitywebsolutions.in</i>
-        </address>
-        <div class="btn-group text-center" role="group">
-          <a class="btn btn-primary" href="tel:+918427047669"><i class="fa fa-phone"></i></a>
-          <a class="btn btn-success" href="tel:+918427047669"><i class="fab fa-whatsapp"></i></a>
-          <a class="btn btn-info" href="mailto:loheraarjun@gmail.com"><i class="fa fa-envelope"></i></a>
+</div> <!-- End of container -->
+
+  <!-- Contact us form -->
+  <div class="container-fluid"> <!--container-fluid To color full width -->
+    <div class="container">
+      <div class="row form-row">
+        <div class="col-md-7">
+          <h3 class="text-center">Send us Feedback</h3>
+          <form>
+            <div class="row form-group">
+              <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+              <div class="col-md-8">
+                <input type="text" id="firstName" name="firstName" placeholder="First Name" class="form-control" required>
+              </div>
+            </div><!--End of first name row -->
+            <div class="row form-group">
+              <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+              <div class="col-md-8">
+                <input type="text" id="lastName" name="lastName" placeholder="Last Name" class="form-control">
+              </div>
+            </div><!-- End of last name -->
+            <div class="row form-group">
+              <label for="email" class="col-md-2 col-form-label">Email</label>
+              <div class="col-md-8">
+                <input type="email" id="email" name="email" placeholder="Email" class="form-control">
+              </div>
+            </div><!--End of email -->
+            <div class="row form-group">
+              <label for="countryCode" class="col-md-2 col-form-label">Contact No.</label>
+              <div class="col-4 col-md-2">
+                <input type="text" id="countryCode" name="countryCode" placeholder="+91" value="+91" class="form-control">
+              </div>
+              <div class=" col-8 col-md-6">
+                <input type="tel" id="contactNumber" name="contactNumber" placeholder=" Contact Number" class="form-control">
+              </div>
+            </div><!-- End of Contact Number-->
+            <div class="row form-group">
+              <label for="feedback" class="col-md-2 col-form-label">Feedback / Enquiry</label>
+              <div class="col-md-8">
+                <textarea class="form-control" id="feedback" name="feedback" rows="6" placeholder="Your message goes here..." required></textarea>
+              </div>
+            </div> <!--End of textarea -->
+            <div class="row form-group">
+              <div class="offset-md-2 col-md-8">
+                <button type="submit" class="btn btn-primary">
+                  Send Feedback / Enquiry
+                </button>
+              </div>
+            </div><!--End of button -->
+          </form>
+        </div><!--Form-->
+        <div class="col-md">
+          <h5>Map goes here!</h5>
+        </div><!-- Map -->
+      </div> <!--form and map row-->
+    </div> <!--Container div-->
+  </div><!--Container-fluid div-->
+    <footer>
+      <div class="container" id="contact">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <h3>Our Mission</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nibh lorem, eleifend a justo vitae, tempor molestie justo. Sed accumsan, magna eu pellentesque volutpat, felis nisi scelerisque felis, a lacinia lorem nulla vel elit. Mauris eget ex vitae purus convallis posuere gravida quis purus.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nibh lorem, eleifend a justo vitae, tempor molestie justo. Sed accumsan, magna eu pellentesque volutpat, felis nisi scelerisque felis, a lacinia lorem nulla vel elit. Mauris eget ex vitae purus convallis posuere gravida quis purus.</p>
+          </div>
+          <div class="col-12 col-md">
+            <h3>Address</h3>
+            <address>
+              Saroop Nagar, Salem Tabri, <br />
+              Ludhiana, Punjab, India.<br />
+              <i class="fa fa-phone"> +91-8427047669</i></a><br />
+              <i class="fa fa-phone"> +91-7009116745</i><br />
+              <i class="fa fa-envelope"> arjun@gravitywebsolutions.in</i>
+            </address>
+            <div class="btn-group text-center" role="group">
+              <a class="btn btn-primary" href="tel:+918427047669"><i class="fa fa-phone"></i></a>
+              <a class="btn btn-success" href="tel:+918427047669"><i class="fab fa-whatsapp"></i></a>
+              <a class="btn btn-info" href="mailto:loheraarjun@gmail.com"><i class="fa fa-envelope"></i></a>
+            </div>
+          </div>
+          <div class="col col-md align-self-center" id="social_button">
+            <div class="text-center">
+              <a class="btn btn-social-icon btn-facebook" href="#"><i class="fab fa-facebook-f"></i></a>
+              <a class="btn btn-social-icon btn-google" href="#"><i class="fab fa-google-plus"></i></a>
+              <a class="btn btn-social-icon btn-twitter" href="#"><i class="fab fa-twitter"></i></a>
+              <a class="btn btn-social-icon btn-linkedin" href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center" id="copyrigt_row">
+          <div class="col-auto text-center">
+            <p>Copyrigt @ 2018</p>
+            <p>Designed and develop by <a href="http://gravitywebsolutions.in" target="_blank">Gravity</a></p>
+          </div>
         </div>
       </div>
-      <div class="col col-md align-self-center" id="social_btn">
-        <div class="text-center">
-          <a class="btn btn-social-icon btn-facebook" href="#"><i class="fab fa-facebook-f"></i></a>
-          <a class="btn btn-social-icon btn-google" href="#"><i class="fab fa-google-plus"></i></a>
-          <a class="btn btn-social-icon btn-twitter" href="#"><i class="fab fa-twitter"></i></a>
-          <a class="btn btn-social-icon btn-linkedin" href="#"><i class="fab fa-linkedin"></i></a>
-        </div>
-      </div>
-    </div>
-    <div class="row justify-content-center" id="copyrigt_row">
-      <div class="col-auto text-center">
-        <p>Copyrigt @ 2018</p>
-        <p>Designed and develop by <a href="http://gravitywebsolutions.in" target="_blank">Gravity</a></p>
-      </div>
-    </div>
-  </div>
-</footer>
+    </footer>
 <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
     <script src="js/jquery.slim.min.js"></script>
     <script src="js/popper.min.js"></script>

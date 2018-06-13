@@ -44,6 +44,19 @@ footer {
 padding-top: 20px;
 }
 
-#social_btn {
-  padding-top: 30px;
+.form-row {
+  min-height: 400px;
+  padding-top: 50px;
+  opacity:.8;
+}
+
+form {
+  padding-top: 10px;
+}
+.container-fluid {
+  background-color: #EDE7F6;
+}
+
+#social_button{
+  padding-top: 25px;
 }
